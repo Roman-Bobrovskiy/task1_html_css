@@ -20,7 +20,7 @@ li {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 65.5%;
+  width: 1170px;
   height: 80px;
   margin: 0 auto;
 }
@@ -51,7 +51,7 @@ li {
 .header__contacts > ul {
   justify-content: space-around;
   width: 60%;
-  margin: 0 auto;
+  margin: 0 43.1%;
 }
 .header__contacts-email > a {
   font-family: "Roboto";
@@ -95,7 +95,7 @@ li {
   width: 696px;
   color: #ffffff;
 }
-.header__baner-botton{
+.header__baner-botton {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -111,5 +111,56 @@ li {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+}
+.wrap_main {
+  width: 100%;
+}
+.main__features > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 1170px;
+  height: 101px;
+  margin: 94px auto;
+}
+.main__features > ul > li > h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.main__features > ul > li > p {
+  width: 270px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.main__w-we-doing-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.main__w-we-doing-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 1170px;
+  margin: 50px auto;
 }
 
